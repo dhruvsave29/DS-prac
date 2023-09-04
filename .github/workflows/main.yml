@@ -13,20 +13,9 @@ OBJECTIVE:
 THEORY:
 A stack is a list in which all insertions and detections are made at one end, called the top. It is a collection of contiguous cells, stacked on top of each other. The last element to be inserted into the stack will be the first to be removed. Thus stacks are sometimes referred to as Last In First Out (LIFO) lists.
 
-					
 The operations that can be performed on a stack are push, pop which are main operations while auxiliary operations are peek, is Empty and is Full. Push is to insert an element at the top of the stack. Pop is deleting an element that is at the top most position in the stack. Peek simply examines and returns the top most value in the stack without deleting it.
 
 Push on an already filled stack and pop on an empty stack result in serious errors so is Empty and is Full function checks for stack empty and stack full respectively. Before any insertion, the value of the variable top is initialized to -1. 
-					
-PUSH Operation
-			
-					
-POP Operation
-			
-
-PEEK Operation
-			
-
 
 ALGORITHM:
 PUSH(item)
